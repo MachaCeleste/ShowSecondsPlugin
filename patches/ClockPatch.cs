@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 
 [HarmonyPatch]
-class ClockPatch
+public class ClockPatch
 {
     [HarmonyPatch(typeof(Clock), "GetFormatHora")]
     class GetFormatHoraPatch
